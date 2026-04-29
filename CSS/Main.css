@@ -122,6 +122,31 @@ nav {
     background-size: cover;
 } */
 
+ol{
+    color: red;
+    font-size: 24px;
+}
+.form{
+    width: 400px;
+    margin: 0px auto;
+
+}
+.form_menu{
+    display: flex;
+    flex-direction: column;
+}
+.form_menu label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form_menu input{
+    height: 400px;
+    padding: 0px 6px;
+    border-radius: 10px;
+
+}
+
 @keyframes buttonimate {
     from{
         opacity: 0%;
